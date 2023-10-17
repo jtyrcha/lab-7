@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Your Page Title</title>
+    <style>
+        /* Styling for Navigation */
+        nav {
+            background-color: blue;
+            overflow: hidden;
+            float: left;
+            width: 100%;
+            position: relative;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            left: 50%;
+            float: left;
+            position: relative;
+            right: 50%;
+            display: block;
+        }
+        nav ul {
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            background-color: #000;
+            text-decoration: none;
+            text-decoration: underline overline; /* Double underline/overline */
+        }
 
+        /* Styling for Sidebar */
+        aside {
+            position: fixed;
+            right: 0;
+            background-color: red;
+            width: 20%;
+            height: 100%;
+            list-style-type: none;
+            padding: 0;
+        }
+        aside a {
+            display: block;
+            padding: 15px 0;
+            color: #fff;
+            text-decoration: none;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+   
+    <aside>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+    </aside>
+</body>
+</html>
