@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Your Page Title</title>
+
     <style>
-        /* Styling for Navigation */
         nav {
             background-color: blue;
             overflow: hidden;
@@ -30,10 +25,10 @@
             text-decoration: none;
             background-color: #000;
             text-decoration: none;
-            text-decoration: underline overline; /* Double underline/overline */
+            text-decoration: underline overline;
         }
 
-        /* Styling for Sidebar */
+  
         aside {
             position: fixed;
             right: 0;
@@ -51,22 +46,5 @@
             background-color: #000;
         }
     </style>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-   
-    <aside>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-        <a href="#">Link 4</a>
-    </aside>
-</body>
-</html>
+
+
